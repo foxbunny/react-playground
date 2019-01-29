@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`greetingEditor basic rendering 1`] = `
+<DocumentFragment>
+  <label>
+    Name:
+    <input
+      value="John"
+    />
+  </label>
+  <p>
+    Hello, John!
+  </p>
+  <div>
+    <button>
+      Reset
+    </button>
+  </div>
+</DocumentFragment>
+`;
