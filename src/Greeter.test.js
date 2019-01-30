@@ -8,7 +8,7 @@ describe('Greeter', () => {
 
   test('update name', done => {
     const g = new Greeter({ view: jest.fn() })
-    jest.spyOn(g, 'setState').mockImplementation(function (newState) {
+    jest.spyOn(g, 'setState').mockImplementation(newState => {
       expect(newState).toEqual({ name: 'React' })
       done()
     })
